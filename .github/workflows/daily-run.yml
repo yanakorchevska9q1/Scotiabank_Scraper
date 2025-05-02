@@ -2,7 +2,7 @@ name: Run Scotiabank Scraper Daily
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # 9 AM PST (5 PM UTC)
+    - cron: '30 15 * * *'
   workflow_dispatch:
 
 jobs:
